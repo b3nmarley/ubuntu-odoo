@@ -1,0 +1,12 @@
+--- # Ubuntu-Odoo Ansible Playbook
+- hosts: localhost
+  gather_facts: no
+  become: true
+  roles:
+    - odoo
+    - postgreSQL
+
+
+
+
+
