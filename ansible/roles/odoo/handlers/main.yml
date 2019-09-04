@@ -1,0 +1,7 @@
+--- # Handlers - Odoo 
+- name: start odoo-server.service
+  systemd:
+    state: started
+    enabled: yes
+    daemon_reload: yes 
+    name: odoo-server.service
