@@ -5,7 +5,10 @@ Hi! In this project I used Packer to build and provision Ubuntu 18.04 machine us
   
   
 If you made it through, Packer has exported the OVF file inside the project directory where you ran it.
-By default, port forwarding is disabled between host and guest when using NAT. In this case, you can either set port forwarding or set network to Bridged. Odoo default port is 8069. 
+By default, port forwarding is disabled between host and guest when using NAT. 
+
+
+In this case, you can either set port forwarding or set network to Bridged. Odoo default port is 8069. 
 Inside Odoo platform, you will find New-Relic to monitor Odoo performance.
 
 so let's stop talking and start building:
@@ -14,6 +17,7 @@ so let's stop talking and start building:
 * **[Packer](https://www.packer.io/downloads.html)** 
 * **[VirtualBox](https://www.virtualbox.org/wiki/Downloads)**
 ## Instructions:
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
 
 After installing VirtualBox, extract Packer inside the project directory next to `ubuntu-odoo.json` file. Then, open terminal and run the following command:
 ```
