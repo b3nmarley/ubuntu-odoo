@@ -13,7 +13,7 @@ so let's stop talking and start building:
 ## Instructions:
 
 After installing VirtualBox, extract Packer inside the project directory next to `ubuntu-odoo.json` file. Then, open terminal and run the following command:
-```shell
+```
 packer build ubuntu-odoo.json
 ```
 That's it, in about 20 min the machine will be ready for use.
