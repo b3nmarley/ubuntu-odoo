@@ -9,6 +9,8 @@ By default, port forwarding is disabled between host and guest when using NAT.
 
 
 In this case, you can either set port forwarding or set network to Bridged. Odoo default port is 8069. 
+
+
 Inside Odoo platform, you will find New-Relic to monitor Odoo performance.
 
 so let's stop talking and start building:
