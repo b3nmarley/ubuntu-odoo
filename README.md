@@ -17,3 +17,5 @@ After installing VirtualBox, extract Packer inside the project directoryInstruct
 packer build ubuntu-odoo.json
 ```
 That's it, in about 20 min the machine will be ready for use.
+
+![test](https://www.betterbuys.com/wp-content/uploads/2018/07/Odoo_modules.png)
