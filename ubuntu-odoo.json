@@ -4,7 +4,7 @@
         "ssh_username": "odoo",
         "ssh_password": "odoo"
     },
-    "builders": {
+    "builders": [{
         "type": "virtualbox-iso",
         "ssh_username": "{{user `ssh_username`}}",
         "ssh_password": "{{user `ssh_password`}}",
@@ -52,7 +52,7 @@
             "passwd/username={{user `ssh_username`}} ",
             "-- <enter>"
         ]
-    },
+    }],
     "provisioners": [{
         "type": "file",
         "source": "ansible",
