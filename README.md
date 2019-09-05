@@ -13,8 +13,8 @@ Inside Odoo's Apps, you will find New-Relic addon as an option to install in ord
 Let's stop talking and start building...
 ## Pre-requisites:
 
-* **[Packer](https://www.packer.io/downloads.html)** 
 * **[VirtualBox](https://www.virtualbox.org/wiki/Downloads)**
+* **[Packer](https://www.packer.io/downloads.html)** 
 ## Instructions:
 
 After installing VirtualBox, extract Packer inside the project directory next to `ubuntu-odoo.json` file. Then, open terminal and run the following command:
