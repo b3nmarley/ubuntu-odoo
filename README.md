@@ -1,6 +1,7 @@
 # Welcome to Ubuntu-Odoo!
 
-Hi! In this project I used Packer to build and provision Ubuntu 18.04 machine using preseed file for unattended installation. Then, shell script initiates Ansible installation and finally running playbook with two roles for Odoo and PostgreSQL installation. at the end of this process you will have the best-of-breed Ubuntu18.04-Odoo11.0 ready for production (it's a joke).<enter>
+In this project I used Packer to build and provision Ubuntu 18.04 machine using preseed file for unattended installation. Then, shell script initiates Ansible installation from APT repo and finally runs playbook with two roles for Odoo 11.0 and PostgreSQL installation. 
+At the end of this process you will have the best-of-breed Ubuntu18.04 Odoo11.0 ready to use.
   
   
   
@@ -13,7 +14,7 @@ In this case, you can either set port forwarding or set network to Bridged. Odoo
 
 Inside Odoo platform, you will find New-Relic to monitor Odoo performance.
 
-so let's stop talking and start building:
+Let's stop talking and start building:
 ## Pre-requisites:
 
 * **[Packer](https://www.packer.io/downloads.html)** 
