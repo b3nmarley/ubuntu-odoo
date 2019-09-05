@@ -2,5 +2,5 @@
 
 # Install Ansible
 apt-get -y install --no-install-recommends ansible
-sudo ansible-playbook /home/odoo/ansible/main.yml
+ansible-playbook /home/odoo/ansible/main.yml
 
