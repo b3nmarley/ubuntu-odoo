@@ -1,5 +1,5 @@
 --- # Tasks - PostgreSQL
-- name: Installing PostgreSQL
+- name: Installing PostgreSQL from APT
   apt:
     name: postgresql
     state: present
@@ -9,6 +9,3 @@
 - name: Creating 'odoo' PostgreSQL user
   become_user: postgres
   command: createuser -s odoo
-  ignore_errors: yes
-  failed_when: false
-  no_log: true
