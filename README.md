@@ -10,7 +10,7 @@ By default, port forwarding is disabled between host and guest when using NAT. I
 
 Inside Odoo platform, you will find New-Relic to monitor Odoo performance.
 
-Let's stop talking and start building:
+Let's stop talking and start building...
 ## Pre-requisites:
 
 * **[Packer](https://www.packer.io/downloads.html)** 
