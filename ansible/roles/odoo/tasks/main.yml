@@ -24,14 +24,12 @@
       path: /opt/odoo
       state: directory
       owner: odoo
-      mode: '0777'
 
   - name: Creating 'wkhtmltopdf' Folder
     file:
       path: /opt/odoo/wkhtmltopdf
       state: directory
       owner: odoo
-      mode: '0777'
 
   - name: Downloading Wkhtmltopdf
     get_url:
@@ -104,7 +102,6 @@
       src: files/odoo-server.service
       dest: /lib/systemd/system/odoo-server.service
       owner: odoo
-      mode: '0777'
   
   - name: Cloning New-Relic Git Repo
     git:
@@ -126,13 +123,11 @@
       path: /var/log/odoo
       state: directory
       owner: odoo
-      mode: '0777'
   
   - name: Copying Odoo Conf File
     copy:
       src: files/odoo-server.conf
       dest: /etc/odoo-server.conf
       owner: odoo
-      mode: '0777'
     notify:
     - start odoo-server.service
