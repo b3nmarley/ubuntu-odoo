@@ -61,7 +61,7 @@
         {
         "type": "shell",
         "scripts": "script/ansible.sh",
-        "expect_disconnect": true,
+        "expect_disconnect": "true",
         "execute_command": "echo '{{user `ssh_password`}}'|{{.Vars}} sudo -E -S bash '{{.Path}}'"
         }
     ]
