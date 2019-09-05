@@ -47,7 +47,7 @@
       version: '11.0'
       depth: 1
 
-  - name: Installing Python Requirements
+  - name: Installing Python Dependencies from PIP3
     pip:
       name: "{{ item }}"
       executable: pip3
