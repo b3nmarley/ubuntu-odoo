@@ -5,7 +5,7 @@ At the end of this process you will have the best-of-breed Ubuntu18.04 Odoo11.0 
   
   
   
-If you made it through, Packer has exported the OVF file inside the project directory where you ran it.
+If you made it through, Packer has exported an OVF file inside the project directory where you rInside Odoo platform, you will find New-Relic to monitor Odoo performance.an it.
 By default, port forwarding is disabled between host and guest when using NAT. In this case, you can either set port forwarding or set network to Bridged. Odoo default port is 8069. 
 
 Inside Odoo platform, you will find New-Relic to monitor Odoo performance.
