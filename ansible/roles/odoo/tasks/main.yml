@@ -109,14 +109,11 @@
       dest: /opt/odoo/new-relic/
       version: '10.0'
       depth: 1
-    tags: newrelic
   
   - name: Copying New-Relic to Addons Folder
     copy:
       src: /opt/odoo/new-relic/newrelic
       dest: /opt/odoo/odoo11/addons/
-      mode: '0777'
-    tags: newrelic
   
   - name: Creating /var/log/odoo Folder
     file:
