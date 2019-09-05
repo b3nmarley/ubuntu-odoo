@@ -1,7 +1,7 @@
 # Welcome to Ubuntu-Odoo!
 
 In this project I used Packer to build and provision Ubuntu 18.04 machine using preseed file for unattended installation. Then, shell script initiates Ansible installation from APT and finally runs playbook with two roles for Odoo 11.0 and PostgreSQL installation. 
-At the end of this process you will have the best-of-breed Ubuntu18.04 running Odoo11.0 and ready for use.
+At the end of this process you will have the best-of-breed Ubuntu 18.04 running Odoo 11.0 and ready for use.
   
   
   
