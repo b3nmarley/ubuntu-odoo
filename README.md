@@ -8,7 +8,7 @@ At the end of this process you will have the best-of-breed Ubuntu 18.04 running 
 If you made it through, Packer has exported an OVF file inside the project directory where you ran it.
 By default, port forwarding is disabled between host and guest when using NAT. In this case, you can either set port forwarding or set network to Bridged. Odoo default port is 8069. 
 
-Inside Odoo's Apps, you will find New-Relic addon as an option to install in order to monitor Odoo performance.
+Inside Odoo's Apps, you will find New-Relic addon as an option to install in order to monitor Odoo's performance.
 
 Let's stop talking and start building...
 ## Pre-requisites:
